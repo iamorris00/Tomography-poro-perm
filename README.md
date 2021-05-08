@@ -1,2 +1,2 @@
-# Tomography-poro-perm
-Este es un repositorio para explicar el flujo de trabajo y código de mi tesis de pregrado titulada: Predicción de propiedades petrofísicas básicas a partir de información de tomografía usando un modelo de aprendizaje profundo.
+# Predicting porosity and permeability from CT images and data.
+This repository is divided into jupyter files, each file develops a specific task, which are divided into subfolders
