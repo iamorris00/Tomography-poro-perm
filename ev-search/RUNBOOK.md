@@ -19,7 +19,12 @@ Find **used** cars that are a better deal than that purchase:
   which costs **~COP 90M new** (see `baseline.md`).
 - **Price band: COP 70M – 101M** (set by the buyer). Units slightly above 101M go in a short
   "just over budget" list only when they are clearly a tier above the E5.
-- Also watch 2024 units that are otherwise excellent and label them "2024 – outside year filter".
+- **Max 25,000 km.** Drop anything above that.
+- **2024 is acceptable only for a really strong deal**, i.e. a clearly higher-tier car with full E5-Luxury
+  trim parity at a big discount. Label these "2024 – strong deal exception".
+- **The buyer's quote for the new E5 Luxury is COP 90M.** Use it as the reference price.
+- Any colour and any seller type (dealer or private) is fine. Any brand is fine if trim parity is met.
+- **Facebook and Instagram are out of scope for now.** Skip the social-channel agent.
 - Location: the buyer lives in **Cajicá**. Nearby Cundinamarca towns (Cajicá, Chía, Cota, Zipaquirá, Sopó,
   Tocancipá, Tenjo, Tabio, La Calera, Funza, Mosquera) are preferred, then Bogotá (north first: Usaquén, Suba).
 
@@ -43,7 +48,7 @@ MG S5 EV; GAC Aion V/UT; Geely EX2. Add any new model that meets the criteria.
 - Network access is **fully open** (since 2026-09-26). Agents should open listing pages directly
   (curl with a desktop Chrome User-Agent, or WebFetch) and verify trim, km and 360° camera. Search
   snippets are a fallback only.
-- `scrapers/tucarro.py` scrapes TuCarro (Bogotá + Cundinamarca, electric, 2025–2027, COP 70–101M),
+- `scrapers/tucarro.py` scrapes TuCarro (Bogotá + Cundinamarca, electric, 2024–2027, COP 70–101M),
   writing `data_tucarro_raw.csv`. Run it first every day. Other scrapers live in `scrapers/`, one per site,
   each writing CSV; run them all.
 - MercadoLibre's public API returns 403 without a token, so scrape the HTML instead.
@@ -60,8 +65,8 @@ MG S5 EV; GAC Aion V/UT; Geely EX2. Add any new model that meets the criteria.
 ## Each run
 1. Read `baseline.md`, `seen_listings.csv` and the latest `REPORT.md`.
 2. Run every scraper in `scrapers/`. Then launch Sonnet agents (in parallel) to: (a) open and verify each
-   new or changed SUV candidate (trim, 360° camera, equipment, new price) and update `shortlist_verified.md`;
-   (b) repair any scraper that broke; (c) social-channel snippet search (`listings_social.md`).
+   new or changed SUV candidate (trim, 360° camera, equipment, new price) and update `shortlist_verified.md`; and
+   (b) repair any scraper that broke. (Social channels are skipped for now.)
 3. Merge into `seen_listings.csv` (columns: `first_seen,last_seen,source,model,trim,year,km,price_cop,city,cam360,url`),
    keyed by URL. Update `last_seen` and price for known URLs; flag price drops.
 4. Write `REPORT.md` (and a copy at `history/YYYY-MM-DD.md`): top 10 best-value cars,

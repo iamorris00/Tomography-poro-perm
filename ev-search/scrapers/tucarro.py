@@ -57,7 +57,7 @@ def main(out):
     for region in REGIONS:
         for start in range(0, PAGE_SIZE * 10, PAGE_SIZE):
             desde = f"_Desde_{start + 1}" if start else ""
-            url = f"https://carros.tucarro.com.co/electrico/{region}/2025-2027/{desde}{PRICE}_NoIndex_True"
+            url = f"https://carros.tucarro.com.co/electrico/{region}/2024-2027/{desde}{PRICE}_NoIndex_True"
             try:
                 got = parse(fetch(url), region)
             except Exception as e:  # keep going on one bad page
