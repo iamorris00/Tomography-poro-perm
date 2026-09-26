@@ -1,55 +1,57 @@
-# Used EV SUV hunt — Bogotá · report 2026-09-26 (first run)
+# Used EV SUV hunt — Cajicá/Bogotá · report 2026-09-26 (verified)
 
-**Benchmark: new Chery E5 Luxury, about COP 89.99M.** It has a 540° camera, ADAS (ACC, blind spot,
-rear cross-traffic), an ~61 kWh battery and an 8-year/200,000 km warranty. Source:
-[El Carro Colombiano](https://www.elcarrocolombiano.com/novedades/chery-e5-luxury-inicio-entregas-colombia-precio/).
-Full comparison: `baseline.md`.
-**Search band: COP 70M–101M**, model year 2025–2027, 100% electric SUV, 360° camera, Bogotá and nearby towns.
+**Reference: new Chery E5 Luxury, buyer's quote COP 90M** (540° camera, ADAS, ~61 kWh, 8-year/200,000 km warranty).
+**Criteria:**
+- 100% electric SUV or crossover, 2025–2027 (2024 only for a strong deal)
+- COP 70–101M, 25,000 km maximum
+- 360° camera, with the trim matching the E5 Luxury inside and out
+- Cajicá and nearby towns, or Bogotá
 
-> ⚠️ **Access caveat.** In this cloud environment the network proxy blocked TuCarro, Carroya,
-> Vendetunave, Autocosmos, Casa Toro, Los Coches, Autogermana, Facebook and Instagram. Every row
-> below comes from a search-engine snippet. None of these listings was opened, so treat them as leads
-> to confirm by phone or in person.
+**Sources:**
+- TuCarro: 91 listings, scraped directly
+- Vendetunave: 26 listings
+- Autogermana Usados: 59 listings
 
-## Verdict for this run
-At COP 90M the E5 Luxury is already cheap for what it includes. **No verified used 2025+ EV SUV with a
-360° camera was found inside 70–101M.** Most used EV SUVs that beat it on brand or size are listed
-at 125M or more:
+The trim checklist and scores are in `shortlist_verified.md`; the other sites are covered in `listings_other_sites.md`.
 
-- Kia EV3: ~125M
-- BYD Song Plus EV: 126–163M
-- Volvo EX30: 138–180M
+## Qualifying cars (ranked)
 
-Used prices are still high because the Tesla-driven price war pushed new prices down, while used sellers
-have not caught up.
+| # | Car | Year · km | COP | Where | Why it fits | Link |
+|---|---|---|---|---|---|---|
+| 1 | BYD Yuan Plus Lux 60 kWh | 2025 · 17,000 | 97.0M | Chicó, Bogotá (dealer) | 360° camera, full ADAS, panoramic roof, wireless CarPlay and charger. Bigger battery than the E5; ~140–160M new | [TuCarro](https://articulo.tucarro.com.co/MCO-2234839603-byd-yuan-plus-ev-00-lux-6048-kwh-_JM) |
+| 2 | MG ZS EV Deluxe | 2024 · 13,250 | 84.9M | Bogotá | 2024 exception. 360° camera, MG Pilot ADAS, heated seats, V2L. Below the 90M quote | [TuCarro](https://articulo.tucarro.com.co/MCO-4425623680-mg-zs-ev-00-deluxe-_JM) |
+| 3 | Peugeot e-2008 GT | 2025 · 15,600 | 96.5M | Chapinero (official store) | 360° camera, panoramic roof, European brand; ~39M off new. Manual seats | see `shortlist_verified.md` |
+| 4 | BYD Yuan Up 380 Lux (ADAS) | 2026 · 7,000 | 96.8M | Bogotá | ADAS, glass roof, electric leather seats. Smaller than the E5 | see `shortlist_verified.md` |
+| 5 | BYD Yuan Up Lux | 2026 · 7,222 | 97.95M | **Chía** | Closest to Cajicá. Confirm the trim badge in person | see `shortlist_verified.md` |
 
-**Buying the new E5 Luxury is currently the stronger value.** It also comes with a full new-car warranty.
+**Unconfirmed (360° camera not stated):**
+- Hyundai Kona Limited EV, 2024 · 18,000 km, 98M (Vendetunave)
+- BYD Yuan Up, 2025 · 19,000 km, 89.99M (Vendetunave)
 
-## Candidates in or near the 70–101M band
+## Ruled out
+- **Kia EV3:** no Colombian trim has a 360° camera, and this car is over 25,000 km.
+- **MG4 Cross+:** no 360° camera.
+- **Kia EV2 Air and MG S5 Comfort** (new): no 360° camera.
+- **Yuan Up "Full equipo"** (39,800 km) and **MG Marvel R** (32,000 km, 2023): over the km cap.
 
-| # | Car | Year · km | Price COP | Where | 360° | Why it matters | Link / status |
-|---|---|---|---|---|---|---|---|
-| 1 | MG ZS EV | 2025–26, near-new | from 72.99M | Los Coches, Bogotá | unconfirmed | Cheapest in the band, but a lower-tier car than the E5 and possibly new stock | snippet only |
-| 2 | BYD Song Plus (Casa Toro Usados) | 2022 · 56,123 | 105.9M | Suba | unknown | Just over budget. Fails the year filter and **may be the DM-i hybrid** | snippet only |
+## Verdict
+**#1 and #2 genuinely beat the new E5 Luxury:**
+- The **Yuan Plus Lux** is a larger, better-equipped car for 7M more than the E5 quote.
+- The **MG ZS EV Deluxe** matches or beats the E5's equipment for 5M less, but it is a 2024 with less warranty left.
 
-## Stretch: above 101M but a clear tier up (for reference)
+Before buying either one:
+- Confirm the remaining battery and vehicle warranty, and whether it transfers to a new owner.
+- Get a battery state-of-health report.
+- Check the registration and fines history (RUNT/SIMIT).
+- Book an inspection (peritaje).
 
-| Car | Year · km | Price COP | Where | Note |
-|---|---|---|---|---|
-| Kia EV3 | 2025–27 | 124.9–140M | Bogotá | ~40M below new (165M). [link](https://articulo.tucarro.com.co/MCO-2842974884-nuevo-kia-ev3-_JM) |
-| BYD Song Plus EV Premium | 2024 · 25,109 | 125.9M | Suba (Casa Toro) | 360° camera, panoramic roof, 71.8 kWh battery. Outside the year filter |
-| Hyundai Kona Eléctrica | 2024 · 2,600 | 129.9M | Suba | Outside the year filter |
-| Volvo EX30 | 2024 · 18,500 | 138M | Usaquén | 360° camera standard. Outside the year filter |
+## Coverage gaps
+These sites could not be scraped:
+- Carroya: needs an API token
+- Autocosmos: data loads through JavaScript
+- Casa Toro: its API returns errors
+- Los Coches: new cars only
+- Volvo Selekt: blocks bots
+- Kia/Hyundai/BYD used-car pages: no catalog found
 
-## New cars in the same price band (alternatives to the E5)
-
-| Car | New price COP | Comment |
-|---|---|---|
-| MG S5 EV Deluxe | 99.99M | Most direct rival to the E5 Luxury |
-| GAC Aion UT | 80.99M (pre-sale price) | Worth a look. Resale value unproven |
-| Tesla Model Y | from ~119.99M | Over budget new, but a **used 2025 Model Y** is the most likely thing to fall into 70–101M soon, so it is on the watch list |
-
-## Next steps
-- Widen the environment's network access so the daily job can open TuCarro, Carroya and similar sites directly.
-- Facebook Marketplace and groups need a logged-in browser. Search recipes are in `listings_social.md`.
-- The daily routine (06:47 Bogotá time) keeps `seen_listings.csv` current and flags new listings and price drops.
+Facebook and Instagram are out of scope for now, as the buyer asked.
