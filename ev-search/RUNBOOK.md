@@ -11,7 +11,11 @@ Find **used** cars that are a better deal than that purchase:
 - Comfort **equal or better** than the E5 Luxury: **360° camera is mandatory**, plus ADAS, big screen,
   wireless CarPlay/Android Auto, sunroof, powered seats, fast DC charging (CCS2 preferred), V2L, etc.
 - **Better value**: a better brand or a higher-tier car that has depreciated
-  (e.g. COP 140M new, now ~90M used). Price band roughly **COP 70M–150M**.
+  (e.g. COP 140M new, now ~90M used). Always compare against the **E5 Luxury** trim (not Comfort),
+  which costs **~COP 90M new** (see `baseline.md`).
+- **Price band: COP 70M – 101M** (set by the buyer). Units slightly above 101M go in a short
+  "just over budget" list only when they are clearly a tier above the E5.
+- Also watch 2024 units that are otherwise excellent and label them "2024 – outside year filter".
 - Location: **Bogotá** or nearby (Chía, Cajicá, Zipaquirá, Sopó, La Calera, Cota, Funza, Mosquera, Soacha).
 
 ## Sources (one Sonnet subagent per group, run in parallel)
@@ -27,7 +31,14 @@ Model watch list: BYD Yuan Plus/Atto 3, Yuan Up, Sealion 7, Song; Kia EV3/EV5/EV
 Hyundai Kona EV/Ioniq 5; Volvo EX30/EX40/C40; Zeekr X/7X; Geely EX5; Deepal S07; Leapmotor C10/B10;
 Chevrolet Equinox EV/Blazer EV; BMW iX1; Mercedes EQA/EQB; Audi Q4 e-tron; Mustang Mach-E;
 Nissan Ariya; Toyota bZ4X; Renault Megane E-Tech; Peugeot e-2008; MG ZS EV/Marvel R; Omoda E5
-(used, for price reference). Add any new model that meets the criteria.
+(used, for price reference); Tesla Model Y (from ~COP 120M new, so used 2025 units may fall near 100M);
+MG S5 EV; GAC Aion V/UT; Geely EX2. Add any new model that meets the criteria.
+
+## Known access limits
+In this cloud environment the network proxy blocks tucarro.com.co, carroya.com, vendetunave.co,
+autocosmos.com.co, casatoro.com, loscoches.com, autogermana, facebook.com and instagram.com
+(EGRESS_BLOCKED). Until the environment's network access is widened, agents have to use search-engine snippets,
+so every listing is a lead to verify by phone or in person.
 
 ## Rules for agents
 - Never invent listings. Only report listings actually seen on a fetched page or a search snippet
