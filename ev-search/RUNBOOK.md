@@ -10,6 +10,10 @@ Find **used** cars that are a better deal than that purchase:
 - **SUV / crossover**, **100% electric** (no HEV / PHEV)
 - Comfort **equal or better** than the E5 Luxury: **360° camera is mandatory**, plus ADAS, big screen,
   wireless CarPlay/Android Auto, sunroof, powered seats, fast DC charging (CCS2 preferred), V2L, etc.
+- **Trim parity is required, not just model parity.** The specific trim listed must match the E5 Luxury
+  in interior and exterior equipment. Score each candidate against the E5 Luxury checklist in
+  `shortlist_verified.md` (e.g. "11/14, missing sunroof"). Base, "Light" or Comfort trims that lack
+  the 360° camera or most of the perks are disqualified even when the model itself is good.
 - **Better value**: a better brand or a higher-tier car that has depreciated
   (e.g. COP 140M new, now ~90M used). Always compare against the **E5 Luxury** trim (not Comfort),
   which costs **~COP 90M new** (see `baseline.md`).
