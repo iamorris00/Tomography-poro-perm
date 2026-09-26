@@ -72,4 +72,7 @@ MG S5 EV; GAC Aion V/UT; Geely EX2. Add any new model that meets the criteria.
 4. Write `REPORT.md` (and a copy at `history/YYYY-MM-DD.md`): top 10 best-value cars,
    **NEW since last run**, **price drops**, listings that disappeared (probably sold), and
    a short "buy the new E5 or this?" verdict.
+   The ranked table must include, for each car: **new list price of that trim for its model year**,
+   **today's new price** of the same trim, and the saving (COP and %) against both, with sources.
+   Keep a `new_prices.csv` (model,trim,model_year,new_price_cop,source) so lookups are reused.
 5. Commit and push to branch `claude/ev-comparison-shopping-i6qptr`.
