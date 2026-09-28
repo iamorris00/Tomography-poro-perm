@@ -1,4 +1,4 @@
-# Used EV SUV hunt — Cajicá/Bogotá · report 2026-09-26 (verified)
+# Used EV SUV hunt — Cajicá/Bogotá · report 2026-09-26 (verified) · last checked 2026-09-28: no changes (see history/2026-09-28.md)
 
 **Reference: new Chery E5 Luxury, buyer's quote COP 90M** (540° camera, ADAS, ~61 kWh, 8-year/200,000 km warranty).
 **Criteria:**
